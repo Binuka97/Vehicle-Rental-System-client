@@ -1,0 +1,27 @@
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>vehicleId</th>
+            <th>vehicleType</th>
+            <th>plateNumber</th>
+            <th>make</th>
+            <th>year</th>
+            <th>model</th>
+            <th>transmission</th>
+            <th>rate</th>
+        </tr>
+
+        <tr *ngFor= "let vehicle of vehicleListAll">
+            <td>{{vehicle.vehicleId}}</td>
+            <td>{{vehicle.vehicleType}}</td>
+            <td>{{vehicle.plateNumber}}</td>
+            <td>{{vehicle.make}}</td>
+            <td>{{vehicle.year}}</td>
+            <td>{{vehicle.model}}</td>
+            <td>{{vehicle.transmission}}</td>
+            <td>{{vehicle.rate}}</td>
+            
+        </tr>  
+
+    </table>
+    </div>
